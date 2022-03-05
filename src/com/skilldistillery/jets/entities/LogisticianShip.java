@@ -10,9 +10,20 @@ public class LogisticianShip extends Jet implements SupplyDropper {
 		
 	}
 	
-
+	public String fly(String name, String model, int range, int speed, double price) {
+		int flightTime = 0;
+		flightTime = (range/speed);
+		return "Ready to fly! Incoming suppy drop! [Name: " + name + ", Model: " + model + ", Speed: " + speed + ", Range: " + range + ", Price: " + price
+				 + ", Flight Time: " + flightTime + "]";
+	}
+	
+	public String getSpeed(String speed) {
+		return speed;
+	}
 	@Override
 	public void dropResupply() {
 		// TODO Auto-generated method stub
 	}
+
+	
 }

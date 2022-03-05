@@ -75,9 +75,6 @@ public class AirField {
 		this.jetImport = jetImport;
 	}
 
-	public List<Jet> listFleet(List<Jet> jetImport) {
-
-		return jetImport;
-	}
+	
 
 }

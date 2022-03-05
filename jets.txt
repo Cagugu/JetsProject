@@ -1,5 +1,5 @@
 Swindler180,LogisticianShip,120,150,1000000 
 LoisClerk118,ExpeditionAiry,70,400,236000
 MotherEarth1,PlanetAirIum,32,1500,57800547
-CoinPurse123,LogisticianShip,120,150,1100000
+CoinPurse123,LogisticianShip,140,150,1100000
 CallIn000,ExpeditionAiry,70,400,256700

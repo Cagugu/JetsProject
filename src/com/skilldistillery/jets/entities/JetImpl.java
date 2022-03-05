@@ -1,11 +1,6 @@
 package com.skilldistillery.jets.entities;
 
 public class JetImpl extends Jet{
-
-	
-	
-
-	
 	
 	public JetImpl() {
 		super();
@@ -15,6 +10,10 @@ public class JetImpl extends Jet{
 		super(name, model, speed, range, price);
 	}
 
-	
+	public String getSpeed(String speed) {
+		return speed;
+	}
+
+
 	
 }

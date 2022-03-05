@@ -2,7 +2,7 @@ package com.skilldistillery.jets.entities;
 
 import java.util.Objects;
 
-public abstract class Jet {
+public abstract class Jet{
 
 	private String name;
 	private String model;
@@ -23,8 +23,7 @@ public abstract class Jet {
 	
 	
 	public String toString() {
-		return "Jet [name=" + name + ", model=" + model + ", speed=" + speed + ", range=" + range + ", price=" + price
-				+ "]";
+		return "Jet [Name: " + name + ", Model: " + model + ", Speed: " + speed + ", Range: " + range + ", Price: " + price+ "]";
 	}
 
 	public String getModel() {
@@ -34,7 +33,7 @@ public abstract class Jet {
 	public void setModel(String model) {
 		this.model = model;
 	}
-
+	
 	public int getSpeed() {
 		return speed;
 	}
@@ -66,6 +65,14 @@ public abstract class Jet {
 	public void setPrice(double price) {
 		this.price = price;
 	}
+	
+	public String fly() {
+		int flightTime = 0;
+		flightTime = (range/speed);
+		return "Ready to fly! [Name: " + name + ", Model: " + model + ", Speed: " + speed + ", Range: " + range + ", Price: " + price
+				 + ", Flight Time: " + flightTime + "]";
+	}
+	
 
 	@Override
 	public int hashCode() {
