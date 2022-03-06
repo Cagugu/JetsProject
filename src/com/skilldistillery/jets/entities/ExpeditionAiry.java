@@ -10,9 +10,6 @@ public class ExpeditionAiry extends Jet implements JumpFlight {
 		
 	}
 	
-	public String getSpeed(String speed) {
-		return speed;
-	}
 	
 	public String fly(String name, String model, int range, int speed, double price) {
 		int flightTime = 0;
@@ -23,14 +20,14 @@ public class ExpeditionAiry extends Jet implements JumpFlight {
 
 	
 	@Override
-	public String dropExplorers() {
-		int explorers=0;
-		for(int i=0; i<10; i++) {
-			explorers = (int)(Math.random() * 100) + 1;
-			System.out.println("All" + explorers + "explorers have been dropped on Planet X.");		
-			}
-		return "All" + explorers + "explorers have been dropped on Planet X.";
+	public void dropExplorers() {
+		int explorers = 0;
+
+		explorers = (int) (Math.random() * 100) + 1;
+		System.out.println("All " + explorers + " explorers have been dropped on Planet X.");
+
 	}
+
 
 
 }
