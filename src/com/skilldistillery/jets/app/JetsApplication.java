@@ -73,6 +73,6 @@ public class JetsApplication {
 			break;
 		}
 		}
+		kb.close();
 	}
-
 }
