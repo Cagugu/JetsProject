@@ -146,7 +146,7 @@ public class AirField {
 			}
 
 		}
-		System.out.println("Planning a longer voyage?" + hasLongestRange);
+		System.out.println("Planning a longer voyage? " + hasLongestRange);
 	}
 
 	public void flyAllJets() {
